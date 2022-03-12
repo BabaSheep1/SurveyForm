@@ -1,0 +1,51 @@
+<div class="main">
+    <link rel="stylesheet" href="style.css">
+    <h1 id="title"> Survey Form Favourite E-Hailing</h1>
+    <p id="description"> Thank you for taking your time to help us know better </p>
+    
+    <div class="main-content">
+      <div class="form-content">
+        <form id="survey-question">
+          <label for="name" id="name-label"> Name</label>
+          <input id="name" type="text" required placeholder="Enter your name" /><br/> 
+          <label for="email" id="email-label">  Email</label>
+          <input id="email" type="email" required placeholder="Enter your email" /><br/> 
+          <label for="number" id="number-label"> Enter your rate from 1 to 10</label>
+          <input id="number" type="number" min="1" max="10" required placeholder="" /> <br/> 
+          <label for="dropdown"> Which option best describes your current living?</label>
+          <select id="dropdown">
+            <option value="alone"> Alone </option>
+            <option value="family1"> Couple </option>
+            <option value="family2"> Family</option>
+            <option value="anonymous"> Prefer not to say               </option>
+            <option value="other"> Other</option>
+          </select>
+          
+          <fieldset>
+            <legend> Which is your favourite E-hailing to               order food? </legend>
+            <input type="radio" name="action" checked                   id="AirFood" value="AirFood" />
+            <label for="AirFood">AirFood</label><br/>
+            <input type="radio" name="action" checked                   id="GrabFood" value="GrabFood" />
+            <label for="GrabFood">GrabFood</label><br/>
+            <input type="radio" name="action" checked                   id="LalaFood" value="LalaFood" />
+            <label for="LalaFood">LalaFood</label><br/>
+            <input type="radio" name="action" checked                   id="PandaFood" value="PandaFood" />
+            <label for="PandaFood">PandaFood</label><br/>
+            <input type="radio" name="action" checked                   id="ShoppeFood" value="ShoppeFood" />
+            <label for="ShoppeFood">ShoppeFood</label><br/>               </fieldset>
+          
+          <p>Why do you like them?</p>
+          <input type="checkbox" id="promotion"                       name="promotion" value="promotion">
+          <label for="promotion"> Promotion</label><br> 
+          <input type="checkbox" id="good-service"                   name="good-service" value="good-service">
+          <label for="good-service"> Good Service</label><br> 
+          <input type="checkbox" id="friendly-application"           name="friendly-application" value="friendly-               application">
+          <label for="friendly-application"> Friendly                 Application</label><br> 
+          
+          <label for="comment"> Any comments or suggestions?         </label>
+          <textarea rows="4" cols="50" id="comment"> Enter your comment here...</textarea>
+          <button type="submit" id="submit"> Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
